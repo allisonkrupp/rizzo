@@ -1,0 +1,133 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.leftContainer {
+  display: inline-block;
+  float: left;
+  width: 29%;
+  height: 100%;
+  background-color: #ddd;
+}
+.topLeft {
+  display: inline-block;
+  float: left;
+  background-color:red;
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+.bottomLeft {
+  display: inline-block;
+  float: left;
+  background-color: blue;
+  width: 100%;
+  line-height: 30px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.rightContainer {
+  float: right;
+  display: inline-block;
+  width: 71%;
+  height: 100%;
+  background-color: aqua;
+}
+.topLeft img {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transform: rotate(90deg);
+  max-width: 70%;
+  object-fit: cover;
+}
+.topLeft h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+.bottomLeft h1 {
+  padding-left: 25px;
+}
+.bottomLeft ul {
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+.topRight {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  height: 100%;
+  padding: 30px;
+  background-color: antiquewhite;
+}
+.topRight img {
+  float: left;
+  width: 200px;
+  -webkit-transform: rotate(90deg);
+  padding-bottom: 5%;
+  margin-right: 40px;
+  margin-left: auto;
+  height: 200px;
+  object-fit: cover;
+}
+.topRight h1 {
+  margin-top: auto;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.topRight p {
+  padding-left: 10px;
+}
+.bottomRight {
+  display: inline-block;
+  background-color: antiquewhite;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  height: 100%;
+}
+.bottomRight h2 {
+  margin-right: 30px;
+  padding-top: 10px;
+  margin-left: 10px;
+}
+.bottomRight img {
+  float: left;
+  width: 200px;
+  -webkit-transform: rotate(90deg);
+  padding-bottom: 5%;
+  margin-right: 30px;
+  height: 200px;
+  object-fit: cover;
+}
